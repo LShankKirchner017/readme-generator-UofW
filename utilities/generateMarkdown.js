@@ -1,3 +1,5 @@
+
+
 function generateInstallation(confirmInstallation) {
   if (!confirmInstallation) {
     return "";
@@ -40,6 +42,10 @@ export function generateMarkdown({
   githubUsername,
   email,
 }) {
+  // const badgeImg = licenseBadge(license)
+  // const badgeLink = licenseLink(license)
+  // ${badgeImg}
+  // ${badgeLink}
   return `
   # ${title}
 
