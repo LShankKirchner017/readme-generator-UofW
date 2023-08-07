@@ -8,3 +8,7 @@
 
 - I learned how to used inquirer npm, node js, and how to create different js files to keep my code clean and organized. 
 
+## Walkthrough Video 
+
+## GitHub Repository Link 
+<https://github.com/LShankKirchner017/readme-generator-UofW>

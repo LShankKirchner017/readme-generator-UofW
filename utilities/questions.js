@@ -2,65 +2,65 @@
 
 export const questions = [
     {
-        input: "type", 
+        type: "input", 
         name: "title",
         message: "What is the title of your project?"
 
     },
     {
-        input: "type",
+        type: "input",
         name: "description",
         message: "Enter a one sentence description of your project.",
     },
     {
-        input: "confirm",
+        type: "confirm",
         name: "confirmInstallation",
         message: "Does your project require installation files?",
     },
     {
-        input: "type",
+        type: "input",
         name: "installation",
         message: "Provide installation instructions, if any.",
     },
     {
-        input: "type",
+        type: "input",
         name: "usage",
         message: "Describe how your project is used.",
     },
     {
-        input: "confirm",
+        type: "confirm",
         name: "confirmTests",
         message: "Does your project include tests?",
     },
     {
-        input: "type",
+        type: "input",
         name: "tests",
         message: "Please provide filepath to any test files.",
     },
     {
-        input: "list",
+        type: "list",
         name: "license",
         message: "What license do you want to include for this project?",
         choices: ["MIT", "Apache 2.0", "GPLv3", "AGPLv3", "Mozilla Public License 2.0", "The Unilicense", "None" ]
 
     },
     {
-        input: "confirm",
+        type: "confirm",
         name: "confirmContribution",
         message: "Do you want to require contribution guidelines?"
     },
     {
-        input: "type",
+        type: "input",
         name: "contribution",
         message: "Describe contribution guidelines"
     },
     {
-        input: "input",
+        type: "input",
         name: "githubUserName",
         message: "Please enter your GitHub user name."
     },
     {
-        input: "input",
+        type: "input",
         name: "email",
         message: "Please enter your email address"
 
