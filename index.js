@@ -13,7 +13,7 @@ function init () {
     .then((answers)=> {
         const markdown = generateMarkdown(answers)
         console.log(markdown)
-        fs.writeFile("./generateMarkdown.js", markdown, err => {
+        fs.writeFile("./generateMarkdown.md", markdown, err => {
             if(err) {
                 throw err
             }
