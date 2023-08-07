@@ -10,7 +10,7 @@ export const questions = [
     {
         input: "type",
         name: "description",
-        message: "Enter a one sentence description of your project",
+        message: "Enter a one sentence description of your project.",
     },
     {
         input: "confirm",

@@ -6,3 +6,25 @@ import { generateMarkdown} from "./utilities/generateMarkdown.js"
 
 // create a function to write README file
 function writeToFile(fileName, data) {}
+
+// create a function to initialize app 
+function init () {
+    inquirer.prompt(questions)
+    .then((answers)=> {
+        const markdown = generateMarkdown(answers)
+        console.log(markdown)
+        fs.writeFile("./generateMarkdown.js", markdown, err => {
+            if(err) {
+                throw err
+            }
+            console.log("README file successfully created!")
+        })
+    })
+    .catch((error) => {
+        console.log(error)
+    } )
+}
+
+// function to call initialized app
+
+init();
