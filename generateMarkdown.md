@@ -1,9 +1,9 @@
 
-  # Beep
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  # ReadMe Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   
-  Boop
+  A CLI ReadMe generator
   
   > ## Table of Contents
   > - **[Installation](#installation)**
@@ -17,16 +17,16 @@
   
   
   ## Usage
-  
+  To easily generate a README.md file for GitHub Repos
   
   ## Contribution
   
   
   ## Tests
-  Tests for this project can be found in Hi!
+  Tests for this project can be found in 
   
   ## License
-  This project is licensed under [Mozilla Public License 2.0]()
+  This project is licensed under [MIT]()
   
   ## Questions
-  If you have any questions, I can be reached at robot@robot, and my GitHub username is undefined.
+  If you have any questions, I can be reached at lshank017@gmail.com, and my GitHub username is undefined.
