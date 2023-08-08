@@ -1,4 +1,4 @@
-
+import { licenseBadge} from "./license.js"
 
 function generateInstallation(confirmInstallation) {
   if (!confirmInstallation) {
@@ -42,13 +42,14 @@ export function generateMarkdown({
   githubUsername,
   email,
 }) {
-  // const badgeImg = licenseBadge(license)
-  // const badgeLink = licenseLink(license)
-  // ${badgeImg}
-  // ${badgeLink}
+  const badgeImg = licenseBadge(license);
+
+
   return `
   # ${title}
-
+  ${badgeImg}
+  
+  
   ${description}
   
   > ## Table of Contents
@@ -78,4 +79,3 @@ export function generateMarkdown({
   If you have any questions, I can be reached at ${email}, and my GitHub username is ${githubUsername}.
 `;
 }
-

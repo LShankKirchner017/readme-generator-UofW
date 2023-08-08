@@ -1,7 +1,7 @@
 // TODO create a function to give the licenseBadges values & images
 // make a loop to go through the choices from the inquirer 
 
-function licenseBadges(value){
+export function licenseBadge(value){
     if (value === "MIT" ){
         return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     } else if (value === "Appache 2.0"){
@@ -20,14 +20,3 @@ function licenseBadges(value){
     }
 }
 
-
-// TODO create license links
-// make an array of license links
-
-export const licenseLinks = [
-  "https://choosealicense.com/licenses/mit/",
-  "https://choosealicense.com/licenses/apache-2.0/",
-  "https://choosealicense.com/licenses/gpl-3.0/",
-  "https://choosealicense.com/licenses/agpl-3.0/",
-  "https://choosealicense.com/licenses/unlicense/",
-];
